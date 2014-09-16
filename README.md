@@ -1,4 +1,4 @@
-chromebook-apk-creator
+chromeos-apk
 ======================
 
 Run Android APKs on Chromebooks
