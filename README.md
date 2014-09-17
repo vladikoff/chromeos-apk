@@ -73,6 +73,7 @@ SOFTWARE.
 - Flipboard - Works
 - Flixster - Works
 - Twitter - Works in tablet and phone mode
+- Pandora - Works [[Screenshot](http://i.imgur.com/0d8XvXr.png)]
 - Yahoo Screens, Weather and Mail work in Phone mode (might need to remove `gcm` from `usePlayServices` in `manifest.json`). 
 - Soundcloud - Works, crashes when playing sound
 - Chrome, Firefox, Opera, Spotify - Crashes (require native libraries)
@@ -82,6 +83,6 @@ SOFTWARE.
 - Swing Copters - Crashes on Google Play Services
 - WhatsApp - Crashes
 - IMDB - Works
-- Skype `com.skype.raider` - Works, requires you to [convert the APK manually](manually-convert.md). Use an [older version of APK 5.0.0.x](http://www.androiddrawer.com/20511/download-skype-free-im-video-calls-app-apk/) to get this to work.
+- Skype `com.skype.raider` - Works, requires you to enter the package name manually in the CLI, use `com.skype.raider`. Use an [older version of APK 5.0.0.x](http://www.androiddrawer.com/20511/download-skype-free-im-video-calls-app-apk/) to get this to work.
 - XBMC - Crash after initial load.
 - Microsoft Remote Desktop - App seems to work properly after crashing once.  
