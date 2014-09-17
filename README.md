@@ -7,7 +7,7 @@ chromeos-apk
 <img src="http://v14d.com/g/chromeapks/2.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/3.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/4.png" width="300px" />
-## Install
+## Setup
 
 - Install Node.js (via http://nodejs.org/)
 - Install the tool (might need a `sudo` prefix):
@@ -25,13 +25,13 @@ sudo npm install chromeos-apk -g
 Run
 `chromeos-apk [path to apk file]`
 
-### Example
+### Example phone app
 
 ```
 chromeos-apk com.soundcloud.android.apk
 ```
 
-#### Install as a tablet app
+#### Example tablet app
 
 ```
 chromeos-apk com.soundcloud.android.apk --tablet
