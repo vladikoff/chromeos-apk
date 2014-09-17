@@ -71,3 +71,4 @@ SOFTWARE.
 - Opera Mini - works, issues with the back button
 - [Gyro Game](https://play.google.com/store/apps/details?id=pl.submachine.gyro&hl=en) - Works
 - Swing Copters - Crashes on Google Play Services
+- WhatsApp - Crashes
