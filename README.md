@@ -61,3 +61,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+#### Tested Apps
+
+- Flipboard - Works
+- Twitter - Works in tablet and phone mode
+- Soundcloud - Works, crashes when playing sound
+- Chrome, Firefox, Opera, Spotify - Crashes (require native libraries)
+- Opera Mini - works, issues with the back button
+- [Gyro Game](https://play.google.com/store/apps/details?id=pl.submachine.gyro&hl=en) - Works
+- Swing Copters - Crashes on Google Play Services
