@@ -8,6 +8,8 @@ chromeos-apk
 <img src="http://v14d.com/g/chromeapks/3.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/4.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/5.png" width="300px" />
+<img src="http://v14d.com/g/chromeapks/6.png" width="300px" />
+
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
 ## Setup
@@ -72,3 +74,4 @@ SOFTWARE.
 - [Gyro Game](https://play.google.com/store/apps/details?id=pl.submachine.gyro&hl=en) - Works
 - Swing Copters - Crashes on Google Play Services
 - WhatsApp - Crashes
+- IMDB - Works
