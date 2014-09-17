@@ -13,7 +13,7 @@ chromeos-apk
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
 ## Setup
-- Tested on OS X and Ubuntu
+- Tested on OS X and Ubuntu. On Windows [convert manually](manually-convert.md).
 - (Ubuntu might need `sudo apt-get install lib32stdc++6`)
 - Install Node.js (via http://nodejs.org/)
 - Install the tool (might need a `sudo` prefix):
@@ -52,6 +52,8 @@ On your Chromebook go to `chrome://extensions`, enable "Developer mode", and loa
 Make sure Android applications are compatible with your Chromebook, first try to install an official application such as Vine:
 https://chrome.google.com/webstore/detail/vine/plfjlfohfjjpmmifkbcmalnmcebkklkh
 
+If you get a Parse Error, then [convert the APK manually](manually-convert.md)
+
 ## Note
 
 #### This is a proof of concept. Only one app at a time is possible right now, it by default replaces the Vine app.
@@ -75,3 +77,4 @@ SOFTWARE.
 - Swing Copters - Crashes on Google Play Services
 - WhatsApp - Crashes
 - IMDB - Works
+- Skype - Loads up, but cannot authenticate.
