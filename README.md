@@ -77,4 +77,6 @@ SOFTWARE.
 - Swing Copters - Crashes on Google Play Services
 - WhatsApp - Crashes
 - IMDB - Works
-- Skype - Loads up, but cannot authenticate.
+- Skype - Loads up, requires you to [convert the APK manually](manually-convert.md). App cannot authenticate.
+- XBMC - Crash after initial load.
+- Microsoft Remote Desktop - App seems to work properly after crashing once.  
