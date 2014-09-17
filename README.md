@@ -1,11 +1,15 @@
 chromeos-apk
 ======================
 
-Run Android APKs on Chromebooks
+> Run Android APKs on Chromebooks
 
+<img src="http://v14d.com/g/chromeapks/1.png" width="300px" />
+<img src="http://v14d.com/g/chromeapks/2.png" width="300px" />
+<img src="http://v14d.com/g/chromeapks/3.png" width="300px" />
+<img src="http://v14d.com/g/chromeapks/4.png" width="300px" />
 ## Install
 
-- Install Node.js ( via http://nodejs.org/)
+- Install Node.js (via http://nodejs.org/)
 - Install the tool (might need a `sudo` prefix):
 ```
 npm install chromeos-apk -g
@@ -21,13 +25,13 @@ sudo npm install chromeos-apk -g
 Run
 `chromeos-apk [path to apk file]`
 
-### Example:
+### Example
 
 ```
 chromeos-apk com.soundcloud.android.apk
 ```
 
-#### For tablet apps
+#### Install as a tablet app
 
 ```
 chromeos-apk com.soundcloud.android.apk --tablet
@@ -35,6 +39,7 @@ chromeos-apk com.soundcloud.android.apk --tablet
 
 This will generate a directory for you, i.e `com.soundcloud.android`. Copy this directory to your Chromebook.
 On your Chromebook go to `chrome://extensions`, enable "Developer mode", and load the directory using the "Load unpacked extension" button.
+<img src="http://v14d.com/g/chromeapks/howto.png" width="500px" />
 
 ## Troubleshooting
 
