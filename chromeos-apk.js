@@ -1,11 +1,11 @@
 var path = require('path');
 var fs = require('fs');
+var readline = require('readline');
 
 var program = require('commander');
 var parseApk = require('apk-parser2');
 var ncp = require('ncp').ncp;
 var chalk = require('chalk');
-var readline = require('readline');
 var rl = readline.createInterface(process.stdin, process.stdout);
 
 function success(appPath) {
@@ -42,7 +42,7 @@ module.exports = function() {
 
     if (!packageName) {
       console.log(chalk.yellow('Unknown APK package.'));
-      console.log('Please enter the package name: ');
+      console.log('Please enter the package name (i.e "com.skype.raider", if you get this wrong your app will NOT work): ');
       rl.prompt();
       rl.on('line', createExtension)
         .on('close',function(){
