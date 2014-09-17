@@ -3,13 +3,13 @@ chromeos-apk
 
 > Run Android APKs on Chromebooks
 
-<img src="http://v14d.com/g/chromeapks/1.png" width="300px" />
-<img src="http://v14d.com/g/chromeapks/2.png" width="300px" />
-<img src="http://v14d.com/g/chromeapks/3.png" width="300px" />
-<img src="http://v14d.com/g/chromeapks/4.png" width="300px" />
-<img src="http://v14d.com/g/chromeapks/5.png" width="300px" />
-<img src="http://v14d.com/g/chromeapks/6.png" width="300px" />
-
+<img src="http://v14d.com/g/chromeapks/1.png" width="250px" />
+<img src="http://v14d.com/g/chromeapks/2.png" width="250px" />
+<img src="http://v14d.com/g/chromeapks/7.png" width="150px" />
+<img src="http://v14d.com/g/chromeapks/3.png" width="250px" />
+<img src="http://v14d.com/g/chromeapks/4.png" width="250px" />
+<img src="http://v14d.com/g/chromeapks/5.png" width="250px" />
+<img src="http://v14d.com/g/chromeapks/6.png" width="250px" />
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
 - Tested on OS X and Ubuntu. On Windows [convert manually](manually-convert.md).
@@ -82,6 +82,6 @@ SOFTWARE.
 - Swing Copters - Crashes on Google Play Services
 - WhatsApp - Crashes
 - IMDB - Works
-- Skype - Loads up, requires you to [convert the APK manually](manually-convert.md). App cannot authenticate.
+- Skype `com.skype.raider` - Works, requires you to [convert the APK manually](manually-convert.md). Use an [older version of APK 5.0.0.x](http://www.androiddrawer.com/20511/download-skype-free-im-video-calls-app-apk/) to get this to work.
 - XBMC - Crash after initial load.
 - Microsoft Remote Desktop - App seems to work properly after crashing once.  
