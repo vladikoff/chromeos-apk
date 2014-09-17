@@ -8,7 +8,8 @@ chromeos-apk
 <img src="http://v14d.com/g/chromeapks/3.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/4.png" width="300px" />
 ## Setup
-
+- Tested on OS X and Ubuntu
+- (Ubuntu might need `sudo apt-get install lib32stdc++6`)
 - Install Node.js (via http://nodejs.org/)
 - Install the tool (might need a `sudo` prefix):
 ```
