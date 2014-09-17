@@ -1,0 +1,28 @@
+{
+  "name": "chromeos-apk",
+  "version": "1.0.0",
+  "description": "Run Android APKs on Chromebooks",
+  "main": "chromeos-apk.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "chromeos-apk": "chromeos-apk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladikoff/chromebook-apk-creator.git"
+  },
+  "author": "Vlad Filippov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladikoff/chromebook-apk-creator/issues"
+  },
+  "homepage": "https://github.com/vladikoff/chromebook-apk-creator",
+  "dependencies": {
+    "apk-parser2": "^0.1.1",
+    "chalk": "^0.5.1",
+    "commander": "^2.3.0",
+    "ncp": "^0.6.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+   "app": {
+      "background": {
+         "page": "app_main.html"
+      }
+   },
+   "arc_metadata": {
+      "apkList": [ "custom-android-release-1400197.apk" ],
+      "enableExternalDirectory": false,
+      "formFactor": "phone",
+      "name": "__PACKAGE__",
+      "orientation": "portrait",
+      "packageName": "__PACKAGE__",
+      "useGoogleContactsSyncAdapter": false,
+      "usePlayServices": [ "gcm" ]
+   },
+   "default_locale": "en",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png"
+   },
+   "import": [ {
+      "id": "mfaihdlpglflfgpfjcifdjdjcckigekc"
+   } ],
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh8HMM22e3J95V1TO1RSEF9j4eOATV+pIhGq5FFJek9l1aM9ot0B9rB25pWALNZdiW3hrgRcPR/8YGFaccFbcgneK29hnHbcbwSytdrhK2tF7iV3lbbd/FvENBODZXu3jGruWKRCtlsJgaOmA/97wpHEnn8vqkKLj4+W9kIU+dp+m9GzbB9eQijnt/7XQyJzS1YWsVZyrPaNrEibO33u+CesZ+9lSSJsvocd+r0CK+AvEY8mN27/OhNblDGLOQ/OC8L/AvEm9mU3wk11KyqS18e48XbH9Saxmsl72Z7FTcv4j/C0bqNyeJX1Ja2DMEoabuE2Jxm3vtP9jq+5UjRV1+wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "oauth2": {
+      "client_id": "133701689125-jj0hr4gb0ff4ulsbrn0uk2i4th946d4c.apps.googleusercontent.com",
+      "scopes": [  ]
+   },
+   "offline_enabled": true,
+   "permissions": [ "gcm", {
+      "socket": [ "tcp-connect", "tcp-listen", "udp-bind", "udp-send-to", "resolve-host" ]
+   }, "unlimitedStorage", "notifications", "clipboardRead", {
+      "fileSystem": [ "write" ]
+   }, "https://clients2.google.com/", "videoCapture", "clipboardWrite", "identity.email", "alarms", "storage", "identity", "audioCapture" ],
+   "requirements": {
+      "3D": {
+         "features": [ "webgl" ]
+      }
+   },
+   "update_url": "https://localhost",
+   "version": "1337"
+}
