@@ -12,8 +12,10 @@ chromeos-apk
 
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
-## Setup
 - Tested on OS X and Ubuntu. On Windows [convert manually](manually-convert.md).
+
+## Setup
+- Install [a sample Android app from the Chrome Store](https://chrome.google.com/webstore/detail/kids-sight-words/inpoiemibmljfjmjmlokfdllnkjejhai) to get the runtime. Test out that app, make sure it runs on your hardware.
 - (Ubuntu might need `sudo apt-get install lib32stdc++6`)
 - Install Node.js (via http://nodejs.org/)
 - Install the tool (might need a `sudo` prefix):
@@ -71,6 +73,7 @@ SOFTWARE.
 - Flipboard - Works
 - Flixster - Works
 - Twitter - Works in tablet and phone mode
+- Yahoo Screens, Weather and Mail work in Phone mode (might need to remove `gcm` from `usePlayServices` in `manifest.json`). 
 - Soundcloud - Works, crashes when playing sound
 - Chrome, Firefox, Opera, Spotify - Crashes (require native libraries)
 - Opera Mini - works, issues with the back button
