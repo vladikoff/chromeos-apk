@@ -54,11 +54,11 @@ On your Chromebook go to `chrome://extensions`, enable "Developer mode", and loa
 Make sure Android applications are compatible with your Chromebook, first try to install an official application such as Vine:
 https://chrome.google.com/webstore/detail/vine/plfjlfohfjjpmmifkbcmalnmcebkklkh
 
-If you get a Parse Error, then [convert the APK manually](manually-convert.md)
+If you get a `Failed to parse package name in the APK.` error, then you will have to type it the proper package name for the application. You can find out the package name by looking at the URL of the app in the Play Store.
 
 ## Note
 
-#### This is a proof of concept. Only one app at a time is possible right now, it by default replaces the Vine app.
+**This is a proof of concept. You can run up to 4 Android applications right now. By default the `chromeos-apk` tool replaces the Vine app. Read [the multiple apps manual](multiple-apps.md) to load more than one application at a time.**
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
