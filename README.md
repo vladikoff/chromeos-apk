@@ -69,6 +69,7 @@ SOFTWARE.
 #### Tested Apps
 
 - Flipboard - Works
+- Flixster - Works
 - Twitter - Works in tablet and phone mode
 - Soundcloud - Works, crashes when playing sound
 - Chrome, Firefox, Opera, Spotify - Crashes (require native libraries)
