@@ -7,8 +7,11 @@ chromeos-apk
 <img src="http://v14d.com/g/chromeapks/2.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/3.png" width="300px" />
 <img src="http://v14d.com/g/chromeapks/4.png" width="300px" />
-## Setup
 
+### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
+## Setup
+- Tested on OS X and Ubuntu
+- (Ubuntu might need `sudo apt-get install lib32stdc++6`)
 - Install Node.js (via http://nodejs.org/)
 - Install the tool (might need a `sudo` prefix):
 ```
@@ -58,3 +61,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+#### Tested Apps
+
+- Flipboard - Works
+- Twitter - Works in tablet and phone mode
+- Soundcloud - Works, crashes when playing sound
+- Chrome, Firefox, Opera, Spotify - Crashes (require native libraries)
+- Opera Mini - works, issues with the back button
+- [Gyro Game](https://play.google.com/store/apps/details?id=pl.submachine.gyro&hl=en) - Works
+- Swing Copters - Crashes on Google Play Services
