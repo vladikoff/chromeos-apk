@@ -12,9 +12,10 @@ chromeos-apk
 <img src="http://v14d.com/g/chromeapks/6.png" width="250px" />
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
-- Tested on OS X and Ubuntu. On Windows [convert manually](manually-convert.md).
 
 ## Setup
+> Tested on OS X and Ubuntu. On Windows [convert APKs manually](manually-convert.md).
+
 - Install [a sample Android app from the Chrome Store](https://chrome.google.com/webstore/detail/kids-sight-words/inpoiemibmljfjmjmlokfdllnkjejhai) to get the runtime. Test out that app, make sure it runs on your hardware.
 - (Ubuntu might need `sudo apt-get install lib32stdc++6`)
 - Install Node.js (via http://nodejs.org/)
