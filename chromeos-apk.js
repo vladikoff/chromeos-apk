@@ -13,7 +13,7 @@ function success(appPath) {
   process.exit(0);
 }
 
-module.exports = function() {
+module.exports = function () {
 
   program
     .version('1.0.0')
@@ -45,7 +45,8 @@ module.exports = function() {
       console.log('Please enter the package name (i.e "com.skype.raider", if you get this wrong your app will NOT work): ');
       rl.prompt();
       rl.on('line', function (text) {
-        var text = text.trim();
+        text = text.trim();
+
         if (/\.apk$/.test(text)) {
           console.log(chalk.red('Package names do not end with .apk'));
           console.log('They usually look like com.application.developer or com.website.www');
@@ -59,14 +60,14 @@ module.exports = function() {
           createExtension(text);
         }
       })
-      .on('close',function () {
+      .on('close', function () {
         process.exit(0);
       });
     } else {
       createExtension(packageName);
     }
 
-    function createExtension (packageName) {
+    function createExtension(packageName) {
       var templatePath = path.join(__dirname, '_template');
       var appPath = path.join(packageName);
 
