@@ -8,6 +8,7 @@
 
 Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
 
+- Make sure you have `chromeos-apk@2.0.0` or higher. (Update using `npm install -g chromeos-apk@latest`)
 - Download the runtime: https://bitbucket.org/vladikoff/archon/get/v1.0.zip
 - Load it as an unpacked extension.
 <img src="http://v14d.com/g/chromeapks/howto.png" width="500px" />
