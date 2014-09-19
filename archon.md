@@ -1,6 +1,6 @@
 # ARChon Custom Runtime Guide
 
-> ARChon runtime lets you run unlimited number of Android APKs created with `chromeos-apk` across any desktop platform that supports Chrome.
+> ARChon runtime lets you run unlimited number of Android APKs created with `chromeos-apk` on Chrome OS and across any desktop platform that supports Chrome.
 
 <img src="http://v14d.com/g/WinApk.jpg" width="350px" />
 <img src="http://v14d.com/g/multiple.png" width="350px" />
