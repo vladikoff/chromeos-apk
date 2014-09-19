@@ -40,7 +40,8 @@ ARChon source is hosted here: https://bitbucket.org/vladikoff/archon/src. It's o
 
 ### Changing app resolution
 
-Tweak the runtime in 2 places: You need to change the tablet resolution values in these 2 places: https://bitbucket.org/vladikoff/archon/src/65565a86050560187dcf066dc6c6790c3b4d0586/gen_main.min.js?at=master and https://bitbucket.org/vladikoff/archon/src/65565a86050560187dcf066dc6c6790c3b4d0586/gen_index.min.js?at=master
+Tweak the runtime in 2 places: You need to change the tablet resolution values in these 2 places: https://bitbucket.org/vladikoff/archon/src/master/gen_main.min.js and
+https://bitbucket.org/vladikoff/archon/src/master/gen_index.min.js
 
 Find `tablet: {"long": 1280, "short": 800}`, tweak it, fit your resolution, reload the run time. 
 
