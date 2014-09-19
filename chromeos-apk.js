@@ -10,7 +10,7 @@ var rl = readline.createInterface(process.stdin, process.stdout);
 
 function success(appPath) {
   console.log(chalk.green('Directory "', appPath, '" created. Copy that directory onto your Chromebook and use "Load unpacked extension" to load the application.'));
-    process.exit(0);
+  process.exit(0);
 }
 
 module.exports = function() {
@@ -44,10 +44,24 @@ module.exports = function() {
       console.log(chalk.yellow('Unknown APK package.'));
       console.log('Please enter the package name (i.e "com.skype.raider", if you get this wrong your app will NOT work): ');
       rl.prompt();
-      rl.on('line', createExtension)
-        .on('close',function(){
+      rl.on('line', function (text) {
+        var text = text.trim();
+        if (/\.apk$/.test(text)) {
+          console.log(chalk.red('Package names do not end with .apk'));
+          console.log('They usually look like com.application.developer or com.website.www');
           process.exit(0);
-        });
+        } else if (text.indexOf(' ') !== -1) {
+          console.log(chalk.red('Package names do not contain spaces'));
+          console.log('They usually look like com.application.developer or com.website.www');
+          process.exit(0);
+        }
+        else {
+          createExtension(text);
+        }
+      })
+      .on('close',function () {
+        process.exit(0);
+      });
     } else {
       createExtension(packageName);
     }
