@@ -18,6 +18,7 @@ module.exports = function () {
   program
     .version('1.0.0')
     .option('-t, --tablet', 'Create a tablet version')
+    .option('-a, --archon', 'Make app compatible with the custom ARChon runtime.')
     .usage('<path_to_apk_file ...>')
     .parse(process.argv);
 
@@ -69,7 +70,7 @@ module.exports = function () {
 
     function createExtension(packageName) {
       var templatePath = path.join(__dirname, '_template');
-      var appPath = path.join(packageName);
+      var appPath = path.join(packageName + '.android');
 
       // TODO: refactor this if needed in the future
       ncp(templatePath, appPath, function (err) {
@@ -88,6 +89,12 @@ module.exports = function () {
         if (program.tablet) {
           manifest.arc_metadata.formFactor = 'tablet';
           manifest.arc_metadata.orientation = 'landscape';
+        }
+
+        if (program.archon) {
+          try {
+            delete manifest.key;
+          } catch (e) {}
         }
 
         fs.writeFileSync(path.join(appPath, 'manifest.json'), JSON.stringify(manifest, null, 2));

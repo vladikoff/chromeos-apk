@@ -3,9 +3,10 @@
 
 ***** 
 
-Currently you can load up to 4 of your favorite Android applications.
+Currently you can load up to 4 of your favorite Android applications with the official ARC runtime.
 By default the `chromeos-apk` tool replaces the Vine application and everytime you load a different app it replaces it. However you can load 3 more apps by replacing Evernote and other apps. For each extra app adjust the `"key"` value in the `manifest.json` file of that app, then use `"Load unpacked extension..."`.
 
+See
 
 
 ## Key1 - Default App Slot 

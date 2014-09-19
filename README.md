@@ -1,7 +1,7 @@
 chromeos-apk
 ======================
 
-> Run Android APKs on Chromebooks
+> Run Android APKs on Chrome OS, OS X, Linux and Windows.
 
 <img src="http://v14d.com/g/chromeapks/1.png" width="250px" />
 <img src="http://v14d.com/g/chromeapks/2.png" width="250px" />
@@ -13,7 +13,7 @@ chromeos-apk
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
 
-## Setup
+## Setup for Chrome OS
 > Tested on OS X and Ubuntu. On Windows [convert APKs manually](manually-convert.md).
 
 - Install [a sample Android app from the Chrome Store](https://chrome.google.com/webstore/detail/kids-sight-words/inpoiemibmljfjmjmlokfdllnkjejhai) to get the runtime. Test out that app, make sure it runs on your hardware.
@@ -59,7 +59,9 @@ If you get a `Failed to parse package name in the APK.` error, then you will hav
 
 ## Note
 
-**This is a proof of concept. You can run up to 4 Android applications right now. By default the `chromeos-apk` tool replaces the Vine app. Read [the multiple apps manual](multiple-apps.md) to load more than one application at a time.**
+**This is a proof of concept. You can run up to 4 Android applications right now with the regular runtime.
+ By default the `chromeos-apk` tool replaces the Vine app. Read [the multiple apps manual](multiple-apps.md)
+ to load more than one application at a time. To load unlimited number of apps read the [ARChon runtime guide](archon.md) **
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -69,7 +71,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-#### Tested Apps
+## Running apps on OS X, Linux and Windows
+
+See the [ARChon runtime guide](archon.md) to run apps on other operating systems besides ChromeOS.
+
+## Tested Apps
 
 - Flipboard - Works
 - Flixster - Works
