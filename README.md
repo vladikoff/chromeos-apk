@@ -5,11 +5,18 @@ chromeos-apk
 
 <img src="http://v14d.com/g/chromeapks/1.png" width="250px" />
 <img src="http://v14d.com/g/chromeapks/2.png" width="250px" />
-<img src="http://v14d.com/g/chromeapks/7.png" width="150px" />
 <img src="http://v14d.com/g/chromeapks/3.png" width="250px" />
 <img src="http://v14d.com/g/chromeapks/4.png" width="250px" />
 <img src="http://v14d.com/g/chromeapks/5.png" width="250px" />
 <img src="http://v14d.com/g/chromeapks/6.png" width="250px" />
+<img src="http://v14d.com/g/chromeapks/7.png" height="160px" />
+
+### Now supports OS X, Linux and Windows
+
+<img src="http://v14d.com/g/multiple.png" width="250px" />
+<img src="http://v14d.com/g/WinApk.jpg" width="250px" />
+>See the [custrom ARChon runtime guide](archon.md) to run apps on other operating systems besides Chrome OS.
+
 
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
 
@@ -70,10 +77,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Running apps on OS X, Linux and Windows
-
-See the [ARChon runtime guide](archon.md) to run apps on other operating systems besides ChromeOS.
 
 ## Tested Apps
 
