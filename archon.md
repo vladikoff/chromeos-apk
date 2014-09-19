@@ -29,3 +29,20 @@ This will create an app directory for you.
 ### Convert older apps created with `chromeos-apk` tool to ARChon runtime.
 
 - Remove the `"key"` parameter from `manifest.json`.
+
+### Uninstalling ARChon
+
+- Remove the component from `chrome://extensions`. Reinstall an app such as Evernote to get the official runtime on Chrome OS.
+
+### ARChon source
+
+ARChon source is hosted here: https://bitbucket.org/vladikoff/archon/src. It's on BitBucket because GitHub has a 100mb file limit. Feel free to hack on ARChon and tweak it. 
+
+### Changing app resolution
+
+Tweak the runtime in 2 places: You need to change the tablet resolution values in these 2 places: https://bitbucket.org/vladikoff/archon/src/65565a86050560187dcf066dc6c6790c3b4d0586/gen_main.min.js?at=master and https://bitbucket.org/vladikoff/archon/src/65565a86050560187dcf066dc6c6790c3b4d0586/gen_index.min.js?at=master
+
+Find `tablet: {"long": 1280, "short": 800}`, tweak it, fit your resolution, reload the run time. 
+
+
+
