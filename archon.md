@@ -12,6 +12,7 @@
 **Warning: The custom runtime will replace the official runtime component. To go back to the official runtime you will need to uninstall the custom one and reinstall the official one.**
 
 Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
+[OS X Note](http://www.reddit.com/r/Android/comments/2gv035/you_can_now_run_android_apps_on_chrome_for/ckmwy13): Grab the latest version of Chrome Canary, Chrome won't work because 64 bit is required by the custom runtime.
 
 - Make sure you have `chromeos-apk@2.0.0` or higher. (Update using `npm install -g chromeos-apk@latest`). See [README.md](README.md) for more help with the `chromeos-apk` tool.
 - Download the runtime: https://bitbucket.org/vladikoff/archon/get/v1.0.zip
