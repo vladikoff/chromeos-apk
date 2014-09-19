@@ -18,10 +18,11 @@ Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it d
 - Load it as an unpacked extension.
 
 <img src="http://v14d.com/g/chromeapks/howto.png" width="500px" />
-- Create your APKs with the ARChon flag: `chromeos-apk com.imdb.mobile.apk --archon`.
+- (Try out this pre-packaged open source game: [2048-ARChon.APK](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-ARChon-runtime.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension.)
+- Create your custom APKs with the ARChon flag: `chromeos-apk com.imdb.mobile.apk --archon`.
 This will create an app directory for you.
 - Load as many APKs as you want as unpacked extensions on any platform of your choice.
-Try out this pre-packaged open source game: [2048-ARChon.APK](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-ARChon-runtime.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension.
+
 
 ## Notes
 
