@@ -13,7 +13,7 @@
 
 Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
 
-- Make sure you have `chromeos-apk@2.0.0` or higher. (Update using `npm install -g chromeos-apk@latest`)
+- Make sure you have `chromeos-apk@2.0.0` or higher. (Update using `npm install -g chromeos-apk@latest`). See [README.md](README.md) for more help with the `chromeos-apk` tool.
 - Download the runtime: https://bitbucket.org/vladikoff/archon/get/v1.0.zip
 - Load it as an unpacked extension.
 
@@ -21,7 +21,6 @@ Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it d
 - Create your APKs with the ARChon flag: `chromeos-apk com.imdb.mobile.apk --archon`.
 This will create an app directory for you.
 - Load as many APKs as you want as unpacked extensions on any platform of your choice.
-- See [README.md](README.md) for more help with the `chromeos-apk` tool.
 
 ## Notes
 
