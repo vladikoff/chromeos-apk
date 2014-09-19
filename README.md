@@ -61,7 +61,7 @@ If you get a `Failed to parse package name in the APK.` error, then you will hav
 
 **This is a proof of concept. You can run up to 4 Android applications right now with the regular runtime.
  By default the `chromeos-apk` tool replaces the Vine app. Read [the multiple apps manual](multiple-apps.md)
- to load more than one application at a time. To load unlimited number of apps read the [ARChon runtime guide](archon.md) **
+ to load more than one application at a time. To load unlimited number of apps read the [ARChon runtime guide](archon.md)**
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
