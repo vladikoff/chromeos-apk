@@ -46,5 +46,7 @@ https://bitbucket.org/vladikoff/archon/src/master/gen_index.min.js
 
 Find `tablet: {"long": 1280, "short": 800}`, tweak it, fit your resolution, reload the run time. 
 
+### Scale Apps
 
+Add `"resize": "scale"` to `"arc_metadata"` in `manifest.json`.
 
