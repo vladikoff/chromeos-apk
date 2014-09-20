@@ -93,19 +93,19 @@ module.exports = function () {
           manifest.arc_metadata.orientation = 'landscape';
         }
 				
-				if (program.key) {
-					switch (program.key) {
-						case 2: 
-							manifest.key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArHskrdG5EmB5QnEBPXw3TuQ1eHtLF2U7tIywykq4Hh8JQkKsX1aNn6azroEtZ0EslCWlvTleP9rBazLDoGYkCktjc/NAXCdoX728k+H/nxulYAWRkxeZiSbuyGAwt6jA67mq/QYHvsTMuIss/nwhdPVTPRrSpXnrWdO3CMMNMZH49edcAfnvrV8qRhJy3h9B8Qak3KYI2P+F501lGc8P6Xf8zzevvcL+ynFj7UgpDVnwDYVbTrnroC1FOpV8oNfnf1nar0Ii2izgDXl4EUt6zfaxEwJtc8o6HDKtPj2VwILOuWphmuMWHKsC+icExHnIm/oF61FMzyARaoWH2PjpJQIDAQAB';
-							break;
-						case 3: 
-							manifest.key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq/bF1OTNX8Sqz6ZlYlTJb3S/XRnIxM7Wab4vzSb1oQltJi/YMrcxyYvnQZJRYZDN7AoBBlwNG/dx2yrNdSaNFN1bT3AhzNGa3STOlESF6FktWCHiy3HMkiguALaGGx95PPxSWpBjClHGePbFILwKdWQ75p+j4SiBO1mlNoZgP/F1n+rUVYMOfHKPUbb5zFDH7LbHyZWSAHTJWIZKIcLOcubYq8ITJq5nBFxW7mV0hcLdhflLJCbO/9yemi4Rfs0do7yRyLXuSB1EisBHY00kquIyaVJwJIiBDIKGk3KFhetTX3C1JLWTIuGAmjAsf3LBu7AuflDdia5fOANgPAGnJwIDAQAB';
-							break;
-						case 4: 
-							manifest.key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq0UR3Z9iOO5m0taozmsdFdz1oKUCO02VRAMV3ZRwbHdYpg/Mo/dAauTeprLhnGY9N6aCjmDXrPXRcvLc/l8iV+v8U/zi32hvzcXw9d5G5WpQjIhCmLInG5eHOQWGXRTCF1wlrHlv+n4A0ZVYXBJ8zwhLZMrfR3jHhMVpJQOodmU2l/SjIOISfMseNSvkqIibLdzzyuaANh6EfgBOqLzC4yEG9rksTOU3Kr/Pqd/pxA7c1USM4iAZ7lWp8Tnf7m4XOya3K+CrMR0QKvspAF2aknK7eDyLNtG9lTxCDA2T5MD1BkUeHDlmn5ryr2D7myeFTYQqYXAgFrEYh/YKyIe22QIDAQAB';
-							break;
-					}
-				}
+        if (program.key) {
+          switch (program.key) {
+            case 2: 
+              manifest.key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArHskrdG5EmB5QnEBPXw3TuQ1eHtLF2U7tIywykq4Hh8JQkKsX1aNn6azroEtZ0EslCWlvTleP9rBazLDoGYkCktjc/NAXCdoX728k+H/nxulYAWRkxeZiSbuyGAwt6jA67mq/QYHvsTMuIss/nwhdPVTPRrSpXnrWdO3CMMNMZH49edcAfnvrV8qRhJy3h9B8Qak3KYI2P+F501lGc8P6Xf8zzevvcL+ynFj7UgpDVnwDYVbTrnroC1FOpV8oNfnf1nar0Ii2izgDXl4EUt6zfaxEwJtc8o6HDKtPj2VwILOuWphmuMWHKsC+icExHnIm/oF61FMzyARaoWH2PjpJQIDAQAB';
+              break;
+            case 3: 
+              manifest.key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq/bF1OTNX8Sqz6ZlYlTJb3S/XRnIxM7Wab4vzSb1oQltJi/YMrcxyYvnQZJRYZDN7AoBBlwNG/dx2yrNdSaNFN1bT3AhzNGa3STOlESF6FktWCHiy3HMkiguALaGGx95PPxSWpBjClHGePbFILwKdWQ75p+j4SiBO1mlNoZgP/F1n+rUVYMOfHKPUbb5zFDH7LbHyZWSAHTJWIZKIcLOcubYq8ITJq5nBFxW7mV0hcLdhflLJCbO/9yemi4Rfs0do7yRyLXuSB1EisBHY00kquIyaVJwJIiBDIKGk3KFhetTX3C1JLWTIuGAmjAsf3LBu7AuflDdia5fOANgPAGnJwIDAQAB';
+              break;
+            case 4: 
+              manifest.key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq0UR3Z9iOO5m0taozmsdFdz1oKUCO02VRAMV3ZRwbHdYpg/Mo/dAauTeprLhnGY9N6aCjmDXrPXRcvLc/l8iV+v8U/zi32hvzcXw9d5G5WpQjIhCmLInG5eHOQWGXRTCF1wlrHlv+n4A0ZVYXBJ8zwhLZMrfR3jHhMVpJQOodmU2l/SjIOISfMseNSvkqIibLdzzyuaANh6EfgBOqLzC4yEG9rksTOU3Kr/Pqd/pxA7c1USM4iAZ7lWp8Tnf7m4XOya3K+CrMR0QKvspAF2aknK7eDyLNtG9lTxCDA2T5MD1BkUeHDlmn5ryr2D7myeFTYQqYXAgFrEYh/YKyIe22QIDAQAB';
+              break;
+          }
+        }
 
         if (program.archon) {
           try {
