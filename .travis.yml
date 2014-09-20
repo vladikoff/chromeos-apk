@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "0.10"
+
+script:
+  - cd .. && npm link chromeos-apk
+  - wget https://github.com/uberspot/2048-android/archive/v1.91.zip && unzip v1.91.zip
+  - chromeos-apk 2048-android-1.91/2048.apk -a -t
