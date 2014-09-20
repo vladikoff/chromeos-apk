@@ -1,7 +1,7 @@
-# Manifest.json configuration
+# `manifest.json` configuration
 
-
-Possible values for `arc_metadata`:
+## `arc_metadata`
+Raw list of possible values for `arc_metadata`:
 
 ```
 "arc_metadata": {
