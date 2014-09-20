@@ -84,6 +84,8 @@ SOFTWARE.
 
 ## Tested Apps
 
+Read [the manifest guide](manifest.md) to tweak applications.
+
 - Flipboard - Works
 - Flixster - Works
 - Twitter - Works in tablet and phone mode
