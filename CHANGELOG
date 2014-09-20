@@ -1,0 +1,9 @@
+v3.0.0:
+  changes:
+    - Windows support for the CLI tool.
+v2.0.0:
+  changes:
+    - ARChon runtime.
+v1.0.0:
+  changes:
+    - Initial release.

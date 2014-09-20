@@ -3,10 +3,11 @@ var fs = require('fs');
 var readline = require('readline');
 
 var program = require('commander');
-var parseApk = require('apk-parser2');
 var ncp = require('ncp').ncp;
 var chalk = require('chalk');
 var rl = readline.createInterface(process.stdin, process.stdout);
+
+var parseApk = require('./lib/parseApk');
 
 function success(appPath) {
   console.log(chalk.green('Directory "', appPath, '" created. Copy that directory onto your Chromebook and use "Load unpacked extension" to load the application.'));
@@ -16,7 +17,7 @@ function success(appPath) {
 module.exports = function () {
 
   program
-    .version('1.0.0')
+    .version('3.0.0')
     .option('-t, --tablet', 'Create a tablet version')
     .option('-a, --archon', 'Make app compatible with the custom ARChon runtime.')
     .usage('<path_to_apk_file ...>')
@@ -36,7 +37,7 @@ module.exports = function () {
     var packageName = null;
 
     try {
-      packageName = data.manifest[0]['@package'];
+      packageName = data.package;
     } catch (e) {
       console.log(chalk.yellow('Failed to parse package name in the APK.'));
     }
