@@ -35,3 +35,18 @@ Raw list of possible values for `arc_metadata`:
   sleepOnBlur: true
 }
 ```
+
+## `file_handlers`
+
+See https://developer.chrome.com/apps/manifest/file_handlers. 
+This is useful for Chrome OS users. You can experiment opening files with certain Android apps by setting their file handlers. Add to `manifest.json` in your app: 
+```
+ "file_handlers": {
+      "any": {
+         "title": "Open with SOME_APP",
+         "types": [ "*/*" ]
+      }
+  },
+```
+This way your file manager will get this option: 
+<img src="http://i.imgur.com/zTjPaHc.png" width="250px" />
