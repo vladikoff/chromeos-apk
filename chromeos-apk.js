@@ -87,6 +87,7 @@ module.exports = function () {
         var messages = JSON.parse(fs.readFileSync(path.join(templatePath, '_locales', 'en', 'messages.json')));
         manifest.arc_metadata.name = packageName;
         manifest.arc_metadata.packageName = packageName;
+        manifest.version = data.versionName;
 
         if (program.name)
           messages.extName.message = program.name;
