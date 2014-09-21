@@ -84,11 +84,9 @@ SOFTWARE.
 
 ## Tested Apps
 
-Read [the manifest guide](manifest.md) to tweak applications.
+Read [the manifest guide](manifest.md) to tweak applications. Androud `Menu` key is accessible using `ctrl` + `ESC`.
 
-- Flipboard - Works
-- Flixster - Works
-- Twitter - Works in tablet and phone mode
+- Flipboard, Flixster, Twitter - Works
 - Pandora - Works [[Screenshot](http://i.imgur.com/0d8XvXr.png)]
 - Yahoo Screens, Weather and Mail work in Phone mode (might need to remove `gcm` from `usePlayServices` in `manifest.json`). 
 - Soundcloud - Works, crashes when playing sound
