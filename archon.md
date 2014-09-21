@@ -27,6 +27,11 @@ This will create an app directory for you.
 
 ## Notes
 
+### Load additional files 
+
+- Put any additional files into `/vendor/chromium/crx/`, those would be accessible within the app environment
+- OBB files, one way: enable the `enableAdb` flag in `manifest.json`,  `adb push /<package>/<some.obb> /storage/sdcard/Android/obb/<package>/<some.obb>`
+
 ### Convert older apps created with `chromeos-apk` tool to ARChon runtime.
 
 - Remove the `"key"` parameter from `manifest.json`.
