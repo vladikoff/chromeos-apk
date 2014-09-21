@@ -21,6 +21,7 @@ module.exports = function () {
     .option('-t, --tablet', 'Create a tablet version')
     .option('-a, --archon', 'Make app compatible with the custom ARChon runtime.')
     .option('-k, --key <n>', 'Specify key to be used. Default: 1', parseInt)
+    .option('-n, --name [value]', 'Extension display name')
     .usage('<path_to_apk_file ...>')
     .parse(process.argv);
 
@@ -86,7 +87,11 @@ module.exports = function () {
         var messages = JSON.parse(fs.readFileSync(path.join(templatePath, '_locales', 'en', 'messages.json')));
         manifest.arc_metadata.name = packageName;
         manifest.arc_metadata.packageName = packageName;
-        messages.extName.message = packageName;
+
+        if (program.name)
+          messages.extName.message = program.name;
+        else
+          messages.extName.message = packageName;
 
         if (program.tablet) {
           manifest.arc_metadata.formFactor = 'tablet';
