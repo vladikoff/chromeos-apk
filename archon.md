@@ -14,8 +14,15 @@
 Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
 [OS X Note](http://www.reddit.com/r/Android/comments/2gv035/you_can_now_run_android_apps_on_chrome_for/ckmwy13): Grab the latest version of Chrome Canary, Chrome won't work because 64 bit is required by the custom runtime.
 
-- Download the runtime: https://bitbucket.org/vladikoff/archon/get/v1.0.zip
-- Load it as an unpacked extension.
+- Download the runtime that is appropriate for your system: 
+
+| Runtime  | Download |
+|---|---|
+| ARChon 1.0 - Intel x86 64-bit | https://bitbucket.org/vladikoff/archon/get/v1.0.zip |
+| ARChon 1.1 - Intel x86 64-bit   | https://bitbucket.org/vladikoff/archon/get/v1.1-x86_64.zip   |
+| ARChon 1.1 - ARM (for ARM-based Chromebooks)  | https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip   |
+
+- Unzip it, Load it as an unpacked extension.
 
 <img src="http://v14d.com/g/chromeapks/howto.png" width="500px" />
 - (Try out this pre-packaged open source game: [2048-ARChon.APK](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-ARChon-runtime.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension. Press "Launch", ignore warnings.)
