@@ -21,7 +21,7 @@ chromeos-apk
 ### [Video Demo](https://www.youtube.com/watch?v=O-yFLqp_sXs)
 
 ## Quick Demo for Chrome OS
-- Download an official app, [such as Evernote](https://chrome.google.com/webstore/detail/evernote/dhfolfjkgpeaojbiicgheljefkfbbfkc), from the Chrome Web Store
+- Download an official app, [such as Evernote](https://chrome.google.com/webstore/detail/evernote/dhfolfjkgpeaojbiicgheljefkfbbfkc), from the Chrome Web Store.
 - Then download this open source game: [2048.APK Game](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-OFFICIAL.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension. Press "Launch", ignore warnings.
 
 ## Setup for Chrome OS / App Conversion
@@ -86,15 +86,15 @@ SOFTWARE.
 
 Read [the manifest guide](manifest.md) to tweak applications. Androud `Menu` key is accessible using `ctrl` + `ESC`.
 
-- Flipboard, Flixster, Twitter - Works
+- Flipboard, Flixster, Twitter - Works.
 - Pandora - Works [[Screenshot](http://i.imgur.com/0d8XvXr.png)]
 - Yahoo Screens, Weather and Mail work in Phone mode (might need to remove `gcm` from `usePlayServices` in `manifest.json`). 
-- Soundcloud - Works, crashes when playing sound
-- Chrome, Firefox, Opera, Spotify - Crashes (require native libraries)
-- Opera Mini - works, issues with the back button
+- Soundcloud - Works, crashes when playing sound.
+- Chrome, Firefox, Opera, Spotify - Crashes (require native libraries).
+- Opera Mini - Works, issues with the back button.
 - [Gyro Game](https://play.google.com/store/apps/details?id=pl.submachine.gyro&hl=en) - Works
 - [Break Bricks Game](https://play.google.com/store/apps/details?id=com.tongwei.blockbreaker) - Works 
-- Swing Copters - Crashes on Google Play Services
+- Swing Copters - Crashes on Google Play Services.
 - WhatsApp - Crashes
 - IMDB - Works
 - Skype `com.skype.raider` - Works, requires you to enter the package name manually in the CLI, use `com.skype.raider`. Use an older version of APK 5.0.0.x to get this to work.
