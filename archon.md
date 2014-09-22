@@ -7,7 +7,7 @@
 
 ## Instructions
 
-**Note: This can be unstable on operating systems other than Chrome OS. 64-bit version of Chrome is required.**
+**Note: This can be unstable on operating systems other than Chrome OS.**
 
 **Warning: The custom runtime will replace the official runtime component. To go back to the official runtime you will need to uninstall the custom one and reinstall the official one.**
 
