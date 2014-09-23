@@ -11,8 +11,7 @@
 
 **Warning: The custom runtime will replace the official runtime component. To go back to the official runtime you will need to uninstall the custom one and reinstall the official one.**
 
-Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
-[OS X Note](http://www.reddit.com/r/Android/comments/2gv035/you_can_now_run_android_apps_on_chrome_for/ckmwy13): Grab the latest version of Chrome Canary, Chrome won't work because 64 bit is required by the custom runtime.
+Tested on OS X, Windows 64-bit and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
 
 - Download the runtime that is appropriate for your system: 
 
@@ -21,7 +20,7 @@ Tested on OS X, Windows and Ubuntu. You must have Chrome 37+ installed. (If it d
 | ARChon 1.0 - Intel x86 64-bit | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.0.zip) MD5:3bd2e6014a0cba0b1ee3c69462a9b46d |
 | ARChon 1.1 - Intel x86 **Chrome 64-bit / Chrome OS 64-bit** (OSX: Use this in Chrome Canary)  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-x86_64.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_64.zip)   MD5:d409801cac97cdff9ea6aad468ddc927 |
 | ARChon 1.1 - Intel x86 **Chrome 32-bit / Chrome OS 32-bit** (OSX: Use this in Chrome Stable)   | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-x86_32.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_32.zip)   MD5:873c4d116eabd1a5ebedec65d11d6d8a |
-| ARChon 1.1 - ARM (for ARM-based Chromebooks)  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-ARM.zip) MD5:d0a69d822399545ff67292b50f8c4047   |
+| ARChon 1.1 - ARM (i.e ARM-based Chromebooks)  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-ARM.zip) MD5:d0a69d822399545ff67292b50f8c4047   |
 
 
 - Unzip it, Load it as an unpacked extension.
