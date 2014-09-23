@@ -88,10 +88,11 @@ module.exports = function () {
         manifest.arc_metadata.name = packageName;
         manifest.arc_metadata.packageName = packageName;
 
-        if (program.name)
+        if (program.name) {
           messages.extName.message = program.name;
-        else
+        } else {
           messages.extName.message = packageName;
+        }
 
         if (program.tablet) {
           manifest.arc_metadata.formFactor = 'tablet';
