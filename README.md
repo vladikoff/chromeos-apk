@@ -84,7 +84,7 @@ SOFTWARE.
 
 ## Tested Apps
 
-Read [the manifest guide](manifest.md) to tweak applications. Androud `Menu` key is accessible using `ctrl` + `ESC`.
+Read [the manifest guide](manifest.md) to tweak applications. Android `Menu` key is accessible using `ctrl` + `ESC`.
 
 - Flipboard, Flixster, Twitter - Works.
 - Pandora - Works [[Screenshot](http://i.imgur.com/0d8XvXr.png)]
