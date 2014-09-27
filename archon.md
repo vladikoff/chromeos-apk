@@ -35,6 +35,10 @@ This will create an app directory for you.
 
 ## Notes
 
+### Google Play Services
+
+- See https://github.com/vladikoff/chromeos-apk/issues/66
+
 ### Load additional files 
 
 - Put any additional files into `/vendor/chromium/crx/`, those would be accessible within the app environment
