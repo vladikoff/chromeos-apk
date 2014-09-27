@@ -46,7 +46,8 @@ This will create an app directory for you.
 
 ### Uninstalling ARChon
 
-- Remove the component from `chrome://extensions`. Reinstall an app such as Evernote to get the official runtime on Chrome OS.
+- Remove the component and all applications that depend on it from `chrome://extensions` using the "Remove" button. 
+- Chrome OS: Reinstall an app such as Evernote to get the official runtime.
 
 ### ARChon source
 
@@ -67,7 +68,7 @@ Read [the manifest guide](manifest.md) for more advanced tweaks.
 
 ### Windows 32-bit NACL issues
 
-There is a bug in Windows NACL that prevents applications from running (Issue [#38](https://github.com/vladikoff/chromeos-apk/issues/38)). You need to patch `runnable-ld.so-bk`:
+There is a bug in Windows NACL that prevents applications from running (Issue [#38](https://github.com/vladikoff/chromeos-apk/issues/38)). You need to patch `runnable-ld.so-bk` using a Python script:
 ```
 import os
 filename = 'runnable-ld.so-bk'
