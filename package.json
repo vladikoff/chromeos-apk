@@ -1,6 +1,6 @@
 {
   "name": "chromeos-apk",
-  "version": "3.0.0",
+  "version": "4.0.0-pre",
   "description": "Run Android APKs on Chromebooks",
   "main": "chromeos-apk.js",
   "scripts": {
