@@ -14,7 +14,7 @@ function success(appPath) {
   process.exit(0);
 }
 
-module.exports = function () {
+module.exports = function (callback) {
 
   program
     .version('3.0.0')
@@ -26,6 +26,7 @@ module.exports = function () {
     .parse(process.argv);
 
   var apk = program.args[0];
+  callback = callback || success;
 
   if (!apk) {
     throw new Error('Please provide a path to an APK file...');
@@ -124,7 +125,7 @@ module.exports = function () {
         fs.writeFileSync(path.join(appPath, '_locales', 'en', 'messages.json'), JSON.stringify(messages, null, 2));
 
         // done.
-        success(appPath);
+        callback(appPath);
       });
     }
   });
