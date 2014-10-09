@@ -17,9 +17,9 @@ Tested on OS X, Windows 64-bit and Ubuntu. You must have Chrome 37+ installed. (
 
 | Runtime  | Download |
 |---|---|
-| ARChon 1.1 - Intel x86 **Chrome 64-bit / Chrome OS 64-bit** (OSX: Use this in Chrome Canary)  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-x86_64.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_64.zip)   MD5:d409801cac97cdff9ea6aad468ddc927 |
-| ARChon 1.1.1 - Intel x86 **Chrome 32-bit / Chrome OS 32-bit** (OSX: Use this in Chrome Stable) (Win7 32-bit: Use something like Chrome Beta 38.0.2125.77 beta-m) | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1.1-x86_32.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1.1-x86_32.zip)   MD5:5780637446ba941bd2969756f56f9671 |
-| ARChon 1.1 - **ARM (i.e ARM-based Chromebooks)**  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-ARM.zip) MD5:d0a69d822399545ff67292b50f8c4047   |
+| ARChon 1.2 - Intel x86 **Chrome 64-bit / Chrome OS 64-bit** (OSX: Use this in Chrome Canary)  |  [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.2-x86_64.zip) MD5:d77b468339cc512e121c003cc97715db |
+| ARChon 1.2 - Intel x86 **Chrome 32-bit / Chrome OS 32-bit** (OSX: Use this in Chrome Stable) (Win7 32-bit: Use something like Chrome Beta 38.0.2125.77 beta-m) | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.2-x86_32.zip) MD5:9c9844e2591a27d952098581011a2bce |
+| ARChon 1.2 - **ARM (i.e ARM-based Chromebooks)**  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.2-ARM.zip) MD5:3d6955c7702baf1e1d16a000d9f67b10   |
 
 
 - Unzip it, Load it as an unpacked extension.
@@ -87,5 +87,8 @@ exit()
 
 | Runtime  | Download |
 |---|---|
+| ARChon 1.1 - Intel x86 **Chrome 64-bit / Chrome OS 64-bit** (OSX: Use this in Chrome Canary)  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-x86_64.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_64.zip)   MD5:d409801cac97cdff9ea6aad468ddc927 |
+| ARChon 1.1.1 - Intel x86 **Chrome 32-bit / Chrome OS 32-bit** (OSX: Use this in Chrome Stable) (Win7 32-bit: Use something like Chrome Beta 38.0.2125.77 beta-m) | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1.1-x86_32.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1.1-x86_32.zip)   MD5:5780637446ba941bd2969756f56f9671 |
+| ARChon 1.1 - **ARM (i.e ARM-based Chromebooks)**  | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-ARM.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-ARM.zip) MD5:d0a69d822399545ff67292b50f8c4047   |
 | ARChon 1.0 - Intel x86 64-bit | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.0.zip) MD5:3bd2e6014a0cba0b1ee3c69462a9b46d |
 | ARChon 1.1 - Intel x86 **Chrome 32-bit / Chrome OS 32-bit** (OSX: Use this in Chrome Stable)   | [BitBucket](https://bitbucket.org/vladikoff/archon/get/v1.1-x86_32.zip) :: [GitHub](https://github.com/vladikoff/chromeos-apk/releases/download/v3.0.0/ARChon-v1.1-x86_32.zip)   MD5:873c4d116eabd1a5ebedec65d11d6d8a |
