@@ -70,19 +70,6 @@ Add `"resize": "scale"` to `"arc_metadata"` in `manifest.json`.
 
 Read [the manifest guide](manifest.md) for more advanced tweaks.
 
-### Windows 32-bit NACL issues
-
-TL;DR: use **ARChon 1.1.1**. There is a bug in Windows NACL that prevents applications from running (Issue [#38](https://github.com/vladikoff/chromeos-apk/issues/38)). You need to patch `runnable-ld.so` using a Python script:
-```
-import os
-filename = 'runnable-ld.so'
-size = os.stat(filename).st_size
-fh = open(filename, 'r+b')
-fh.truncate((size + 0xffff) & ~0xffff)
-fh.close()
-exit()
-```
-
 ### Older downloads
 > These are downloads for previous versions of ARChon
 

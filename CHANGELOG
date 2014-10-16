@@ -1,3 +1,7 @@
+v4.0.0:
+  changes:
+    - "key" param is not required anymore for ChromeOS (Chrome 38+).
+    - "--scale" option added to enable application window scaling.
 v3.0.0:
   changes:
     - Windows support for the CLI tool.

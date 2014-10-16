@@ -7,5 +7,9 @@ script:
   - wget https://github.com/uberspot/2048-android/archive/v1.91.zip && unzip v1.91.zip
   - chromeos-apk 2048-android-1.91/2048.apk -a -t
   - stat com.uberspot.a2048.android/vendor/chromium/crx/custom-android-release-1400197.apk
+  - rm -rf com.uberspot.a2048.android
   - chromeos-apk 2048-android-1.91/2048.apk
+  - stat com.uberspot.a2048.android/vendor/chromium/crx/custom-android-release-1400197.apk
+  - rm -rf com.uberspot.a2048.android
+  - chromeos-apk 2048-android-1.91/2048.apk --scale
   - stat com.uberspot.a2048.android/vendor/chromium/crx/custom-android-release-1400197.apk
