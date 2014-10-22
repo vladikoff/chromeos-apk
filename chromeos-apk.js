@@ -91,8 +91,10 @@ module.exports = function (callback) {
 
         if (program.name) {
           messages.extName.message = program.name;
-        } else {
+        } else if (packageName) {
           messages.extName.message = packageName;
+        } else {
+          messages.extName.message = 'App';
         }
 
         if (program.tablet) {
