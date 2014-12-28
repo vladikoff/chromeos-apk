@@ -68,6 +68,21 @@ Find `tablet: {"long": 1280, "short": 800}`, tweak it, fit your resolution, relo
 
 Add `"resize": "scale"` to `"arc_metadata"` in `manifest.json`.
 
+**How to adjust font size**
+
+1. Modify the two files (gen_index.min.js and gen_main.min.js).
+
+2. Search a.prototype.computeValues_.
+
+3. Change the value of a.prototype.computeValues_.
+
+4. Let the value c double. Just like the following codes.
+```JavaScript
+a.prototype.computeValues_ = function (a) {
+    var c = 2*window.devicePixelRatio / getCurrentZoom() 
+    .....
+}
+```
 Read [the manifest guide](manifest.md) for more advanced tweaks.
 
 ### Older downloads
