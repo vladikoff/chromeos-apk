@@ -24,6 +24,11 @@ module.exports = function (callback) {
     .usage('<path_to_apk_file ...>')
     .parse(process.argv);
 
+  if (process.argv.length == 2) {
+    program.outputHelp();
+    process.exit(0);
+  }
+
   var apk = program.args[0];
   callback = callback || success;
 
