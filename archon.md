@@ -5,14 +5,11 @@
 <img src="http://v14d.com/g/WinApk.jpg" width="350px" />
 <img src="http://v14d.com/g/multiple.png" width="350px" />
 
-## Instructions
-
 <img src="http://v14d.com/g/chromeapks/ARChonLogo.png" height="100" /> 
-**Note: This can be unstable on operating systems other than Chrome OS.**
 
 **Warning: The custom runtime will replace the official runtime component. To go back to the official runtime you will need to uninstall the custom one and reinstall the official one.**
 
-Tested on OS X, Windows 64-bit and Ubuntu. You must have Chrome 37+ installed. (If it doesn't work try Chrome Canary).
+# Visit [archon-runtime.github.io](http://archon-runtime.github.io/) for latest releases
 
 - Download the runtime that is appropriate for your system: 
 
