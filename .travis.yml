@@ -17,4 +17,4 @@ script:
 
 matrix:
   allow_failures:
-    - "0.11"
+    - nodejs: "0.11"
