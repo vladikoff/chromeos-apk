@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - "0.10"
+  - "0.11"
 
 script:
   - cd .. && npm link chromeos-apk
@@ -13,3 +14,7 @@ script:
   - rm -rf com.uberspot.a2048.android
   - chromeos-apk 2048-android-1.91/2048.apk --scale
   - stat com.uberspot.a2048.android/vendor/chromium/crx/custom-android-release-1400197.apk
+
+matrix:
+  allow_failures:
+    - "0.11"
