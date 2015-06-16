@@ -28,7 +28,8 @@ module.exports = function (callback) {
   callback = callback || success;
 
   if (!apk) {
-    throw new Error('Please provide a path to an APK file...');
+    program.outputHelp();
+    process.exit(0);
   }
 
   parseApk(apk, function (err, data) {
