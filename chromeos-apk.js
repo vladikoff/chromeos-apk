@@ -90,7 +90,7 @@ module.exports = function (callback) {
         manifest.arc_metadata.packageName = packageName;
         manifest.version = '1337';
 
-        if (program.extName) {
+        if (program.extName && typeof program.name !== 'function') {
           messages.extName.message = program.extName;
         } else if (packageName) {
           messages.extName.message = packageName;
