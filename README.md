@@ -102,6 +102,8 @@ Read [the manifest guide](manifest.md) to tweak applications. Android `Menu` key
 - Skype `com.skype.raider` - Works, requires you to enter the package name manually in the CLI, use `com.skype.raider`. Use an older version of APK 5.0.0.x to get this to work.
 - XBMC - Crash after initial load.
 - Microsoft Remote Desktop - App seems to work properly after crashing once.  
+- [Gcompris](https://gcompris.net/downloads-en.html) - Full Fdroid version does not work
+- [eduactive8](https://www.eduactiv8.org/) - Android version does not work
 
 
 ### Author
