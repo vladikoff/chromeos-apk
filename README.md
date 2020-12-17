@@ -23,7 +23,7 @@ chromeos-apk
 
 ## Quick Demo for Chrome OS
 - Download an official app, [such as Evernote](https://chrome.google.com/webstore/detail/evernote/dhfolfjkgpeaojbiicgheljefkfbbfkc), from the Chrome Web Store.
-- Then download this open source game: [2048.APK Game](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-OFFICIAL.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension. Press "Launch", ignore warnings.
+- Then download this open source game: [2048.APK Game](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-OFFICIAL.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension. Go to chrome://apps and launch it there, ignore warnings.
 
 ## Setup for Chrome OS / App Conversion
 > Conversion Tool Tested on OS X, Windows and Ubuntu. You can also [convert APKs manually](manually-convert.md).
