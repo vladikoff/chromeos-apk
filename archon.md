@@ -23,6 +23,7 @@
 - Unzip it, Load it as an unpacked extension.
 
 <img src="http://v14d.com/g/chromeapks/howto.png" width="500px" />
+
 - (Try out this pre-packaged open source game: [2048-ARChon.APK](https://github.com/vladikoff/chromeos-apk/releases/download/v1.1.0/com.uberspot.a2048.android-ARChon-runtime.zip) by [Uberspot](https://github.com/uberspot/2048-android) and load it as an unpacked extension. Press "Launch", ignore warnings.)
 - To load custom applications, make sure you have `chromeos-apk@2.0.0` or higher. (Update using `npm install -g chromeos-apk@latest`). See [README.md](README.md) for more help with the `chromeos-apk` tool.
 - Create your custom APKs with the ARChon flag: `chromeos-apk com.imdb.mobile.apk`.
