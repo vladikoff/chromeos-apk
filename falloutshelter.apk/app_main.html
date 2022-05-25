@@ -1,0 +1,12 @@
+<!-- Copyright 2013 Google Inc. All Rights Reserved.
+
+     ARC app_main.html.  This file is used as the background page for ARC apps.
+     It only embeds an iframe for ARC's main.  This is so we do not have to
+     specify a background page in the manifest.json that looks like
+     '_modules/arcruntimeid/main.html', because the extension validator
+     in Chrome does not understand _modules relative paths.  Rather than bake
+     this knowledge and complexity into the validator, it is better to use this
+     App relative app_main.html.  -->
+
+<!DOCTYPE html>
+<iframe src="_modules/mfaihdlpglflfgpfjcifdjdjcckigekc/main.html"></iframe>
